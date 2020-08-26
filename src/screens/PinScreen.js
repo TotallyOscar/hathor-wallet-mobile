@@ -50,8 +50,8 @@ class PinScreen extends React.Component {
     };
 
     this.canCancel = false;
-    this.screenText = t`Enter your PIN Code `;
-    this.biometryText = t`Unlock Hathor Wallet`;
+    this.screenText = t`Please enter your PIN code `;
+    this.biometryText = t`Unlock OscarWallet`;
     if (!this.props.isLockScreen) {
       this.canCancel = props.navigation.getParam('canCancel', this.canCancel);
       this.screenText = props.navigation.getParam('screenText', this.screenText);
