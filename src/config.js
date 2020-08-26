@@ -20,7 +20,7 @@ import hathorLib from '@hathor/wallet-lib';
  * . remove register/unregister token options;
  * . remove create new token option;
  */
-export const _IS_MULTI_TOKEN = true;
+export const _IS_MULTI_TOKEN = false;
 
 /**
  * Default token.
@@ -32,9 +32,13 @@ export const _IS_MULTI_TOKEN = true;
  *   uid: '000003a3b261e142d3dfd84970d3a50a93b5bc3a66a3b6ba973956148a3eb824'
  * }
  */
-export const _DEFAULT_TOKEN = hathorLib.constants.HATHOR_TOKEN_CONFIG;
+export const _DEFAULT_TOKEN = {
+    name: 'OscarCoin',
+    symbol: 'OSCAR',
+    uid: '00000000e3b2101590011634fef557abd67843ec875f3f7f402f6d343b618486'
+};
 
 /**
  * App's primary color (Hathor purple)
  */
-export const _PRIMARY_COLOR = '#8C46FF';
+export const _PRIMARY_COLOR = '#0080FF';
