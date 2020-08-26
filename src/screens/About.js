@@ -52,19 +52,23 @@ export class About extends React.Component {
 
           <Text style={this.style.title}>Hathor Labs</Text>
           <Text style={this.style.text}>
-            {t`This app is developed by Hathor Labs and is distributed for free.`}
+            {t`This app is developed by TotallyOscar and is distributed for free.`}
           </Text>
 
           <TextFmt style={this.style.text}>
             {t`This wallet is connected to the **mainnet**.`}
           </TextFmt>
           <Text style={this.style.text}>
-            {t`A mobile wallet is not the safest place to store your tokens.
-            So, we advise you to keep only a small amount of tokens here, such as pocket money.`}
+            {t`OscarCoin was created purely as a joke, it is not recommended to take the currency seriously. 
+            However, the currency may be used in any way you like.`}
+          </TextFmt>
+          <Text style={this.style.text}>
+            {t`All OscarCoin transactions are anonymous and irreversible, please take caution when sending and/or 
+            recieving OscarCoin and double check your payment before confirming.`}
           </Text>
           <Text style={this.style.text}>
             {str2jsx(
-              t`For further information, check out our website |link:https://hathor.network/|.`,
+              t`For further information, check out our website |**Coming Soon**|.`,
               { link: (x, i) => <Link key={i} href='https://hathor.network/'>{x}</Link> }
             )}
           </Text>
