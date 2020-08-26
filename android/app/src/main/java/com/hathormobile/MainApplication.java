@@ -1,4 +1,4 @@
-package com.hathormobile;
+package com.oscarmobile;
 
 import android.app.Application;
 
